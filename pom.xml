@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.engram.shamaria</groupId>
+    <artifactId>JaBRO</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.javassist/javassist -->
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.18.1-GA</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>/Users/shamariaengram/Documents/JavaProjects/JaBRO</directory>
+                <includes>
+                    <include>sootclasses-trunk-jar-with-dependencies.jar</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib</directory>
+                <includes>
+                    <include>rt.jar</include>
+                    <include>jce.jar</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>/Users/shamariaengram/.m2/repository/org/javassist/javassist/3.18.1-GA</directory>
+                <includes>
+                    <include>javassist-3.18.1-GA.jar</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>/Users/shamariaengram/.m2/repository/org/aspectj/aspectjrt/1.9.5</directory>
+                <includes>
+                    <include>aspectjrt-1.9.5.jar</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+
+</project>

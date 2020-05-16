@@ -31,25 +31,6 @@
                     <include>sootclasses-trunk-jar-with-dependencies.jar</include>
                 </includes>
             </resource>
-            <resource>
-                <directory>/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib</directory>
-                <includes>
-                    <include>rt.jar</include>
-                    <include>jce.jar</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>/Users/shamariaengram/.m2/repository/org/javassist/javassist/3.18.1-GA</directory>
-                <includes>
-                    <include>javassist-3.18.1-GA.jar</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>/Users/shamariaengram/.m2/repository/org/aspectj/aspectjrt/1.9.5</directory>
-                <includes>
-                    <include>aspectjrt-1.9.5.jar</include>
-                </includes>
-            </resource>
         </resources>
     </build>
 

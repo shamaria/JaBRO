@@ -123,9 +123,9 @@ public class JaBRO {
                 String[] mArgs = (String[]) args;
                 for (int i = 0; i < mArgs.length; i++){
                     if (mArgs[i] == null){
-                        cm.insertBefore("$"+(i+1)+"["+i+"] = "+mArgs[i]+";");
+                        cm.insertBefore("$1["+i+"] = "+mArgs[i]+";");
                     }else{
-                        cm.insertBefore("$"+(i+1)+"["+i+"] = \""+mArgs[i]+"\";");
+                        cm.insertBefore("$1["+i+"] = \""+mArgs[i]+"\";");
                     }
                 }
             }
